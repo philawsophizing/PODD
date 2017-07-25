@@ -27,12 +27,18 @@ const buildFiles = {
     './dev/js/index.js'
   ],
   css: [
-    './dev/css/main.css'
+    './dev/css/reset.css',
+    './dev/css/app_shell.css',
+    './dev/css/header.css',
+    './dev/css/customer_home.css',
+    './dev/css/merchant_home.css'
   ],
   html: [
     './dev/html/open.html',
     // PAGES ------------->
-    './dev/html/home.html',
+    './dev/html/header.html',
+    './dev/html/customer_home.html',
+    './dev/html/merchant_home.html',
     // <-------------------
     './dev/html/close.html'
   ]
@@ -52,3 +58,9 @@ const build = (file) => {
 };
 
 module.exports = fileWatch;
+
+// STARTUP BUILD
+//
+// build('.html');
+// build('.css');
+// build('.js');
