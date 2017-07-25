@@ -15,34 +15,7 @@
   text-align: center;
 }
 
-/*GHOST ELEMENT FOR CENTERING*/
-.shell:before {
-  content: '';
-  display: inline-block;
-  height: 100vh;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}
-
-/*CUSTOMER HOME PAGE*/
-.customer-home {
-  text-align: left;
-  width: 100%;
-  max-width: 414px;
-  height: 100%;
-  max-height: 736px;
-  margin: auto;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-@media (min-width: 415px) {
-  .home {
-    border: 1px solid white;
-    border-radius: 2%;
-  }
-}
-
+/*HOME HEADER*/
 .header {
   margin: 5% 2%;
 }
@@ -63,6 +36,25 @@
 
 .merchant {
   border: 1px solid black;
+}
+
+/*CUSTOMER HOME PAGE*/
+.customer-home {
+  text-align: left;
+  width: 100%;
+  max-width: 414px;
+  height: 100%;
+  max-height: 736px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: 415px) {
+  .home {
+    border: 1px solid white;
+    border-radius: 2%;
+  }
 }
 
 .header h1 {
