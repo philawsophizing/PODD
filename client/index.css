@@ -1,0 +1,108 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+.shell {
+  height: 100vh;
+  text-align: center;
+}
+
+/*GHOST ELEMENT FOR CENTERING*/
+.shell:before {
+  content: '';
+  display: inline-block;
+  height: 100vh;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+/*CUSTOMER HOME PAGE*/
+.customer-home {
+  text-align: left;
+  width: 100%;
+  max-width: 414px;
+  height: 100%;
+  max-height: 736px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: 415px) {
+  .home {
+    border: 1px solid white;
+    border-radius: 2%;
+  }
+}
+
+.header {
+  margin: 5% 2%;
+}
+
+.customer-type {
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+
+.human {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin-left: 55%;
+}
+
+.merchant {
+  border: 1px solid black;
+}
+
+.header h1 {
+  font-weight: bold;
+}
+
+.line-break {
+  border: 0.5px solid black;
+  margin: 1%;
+  width: 80%;
+}
+
+.header h3 {
+  width: auto;
+  display: inline;
+}
+/**/
+.current {
+  border: 1px dashed black;
+  width: 80%;
+  margin: 0 10%;
+  height: auto;
+}
+
+.store {
+  width: 90%;
+  margin: 5%;
+  height: 20vh;
+  border: 1px solid red;
+}
+
+.shop-button {
+  width: 30%;
+  margin: 0 35% 5% 35%;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*MERCHANT HOME PAGE*/
+.merchant-home {
+  display: none;
+}
