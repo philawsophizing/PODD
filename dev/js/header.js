@@ -1,5 +1,3 @@
-
-
 // HEADER
 (function HeaderButtons() {
   // GET BUTTONS
