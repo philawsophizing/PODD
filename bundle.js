@@ -24,7 +24,8 @@ const fileWatch = () => {
 
 const buildFiles = {
   js: [
-    './dev/js/index.js'
+    './dev/js/index.js',
+    './dev/js/header.js'
   ],
   css: [
     './dev/css/reset.css',
