@@ -1,4 +1,9 @@
 /*MERCHANT HOME PAGE*/
 .merchant-home {
   display: none;
+  border: 1px dashed blue;
+  text-align: left;
+  width: 94%;
+  height: auto;
+  margin: auto;
 }
