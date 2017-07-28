@@ -47,15 +47,23 @@ body {
   width: auto;
 }
 
-/*HOME HEADER*/
-.header {
+/*CUSTOMER HOME PAGE*/
+.customer-home {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/*CUSTOMER HEADER*/
+.customer-header {
   text-align: right;
   top: 1%;
   right: 1%;
   padding: 3% 2% 0 0;
 }
 
-.customer-type {
+.customer-header div {
   display: inline-block;
   width: 20%;
   text-align: center;
@@ -63,25 +71,34 @@ body {
   margin: 0 0.5%;
 }
 
-.human {
+.customer-human-button {
   box-shadow: none;
   color: #f7f9f7;
   background-color: #111611;
 }
 
-.merchant {
+.customer-merchant-button {
   color: #111611;
   background-color: #f7f9f7;
   box-shadow: 0 0 3px 1px #111611;
 }
 
-/*CUSTOMER HOME PAGE*/
-.customer-home {
-  text-align: left;
+.customer-merchant-button:hover {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+.customer-merchant-button:active {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+/*INTRO*/
+.intro {
   width: 94%;
-  height: auto;
   margin: auto;
-  /*border: 1px dotted red;*/
 }
 
 .intro h1 {
@@ -102,29 +119,21 @@ body {
   display: inline;
 }
 
-.read-more {
-  display: inline;
-  text-decoration: underline;
-}
-
-.home-more {
-  display: none;
-}
-
 /*LOCATION AUTH*/
-.location {
+.customer-location {
   text-align: center;
   width: 90%;
   margin: auto;
   padding-top: 10%;
+  /*display: none;*/
 }
 
-.location h4 {
+.customer-location h4 {
   margin-bottom: 5%;
   font-size: 1.1rem;
 }
 
-.authorize {
+.customer-authorize {
   width: 30%;
   margin: auto;
   text-align: center;
@@ -134,34 +143,150 @@ body {
   box-shadow: 0 0 3px 1px #111611;
 }
 
-/**/
-.current {
-  border: 1px dashed black;
-  width: 80%;
-  margin: 0 10%;
-  height: auto;
-  display: none;
+.customer-authorize:hover {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
 }
 
-.store {
-  width: 90%;
-  margin: 5%;
-  height: 20vh;
-  border: 1px solid red;
-}
-
-.shop-button {
-  width: 30%;
-  margin: 0 35% 5% 35%;
-  height: auto;
-  border: 1px solid black;
-  text-align: center;
+.customer-authorize:active {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
 }
 
 /*MERCHANT HOME PAGE*/
 .merchant-home {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin: auto;
   display: none;
+}
+
+/*CUSTOMER HEADER*/
+.merchant-header {
+  text-align: right;
+  top: 1%;
+  right: 1%;
+  padding: 3% 2% 0 0;
+}
+
+.merchant-header div {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 0.5%;
+}
+
+.merchant-merchant-button {
+  box-shadow: none;
+  color: #f7f9f7;
+  background-color: #111611;
+}
+
+.merchant-human-button {
+  color: #111611;
+  background-color: #f7f9f7;
+  box-shadow: 0 0 3px 1px #111611;
+}
+
+.merchant-human-button:hover {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+.merchant-human-button:active {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+/*INTRO*/
+.intro {
+  width: 94%;
+  margin: auto;
+}
+
+.intro h1 {
+  font: 1.75rem;
+}
+
+.intro h3 {
+  font-size: 1.25rem;
+}
+
+.line-break {
+  border: 0.5px solid black;
+  margin: 1% auto 3% auto;
+  width: 90%;
+}
+
+.intro-text {
+  display: inline;
+}
+
+/*LOCATION AUTH*/
+.store {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.store h4 {
+  margin-bottom: 5%;
+  font-size: 1.1rem;
+}
+
+.store-location {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #111611;
+  background-color: #f7f9f7;
+  box-shadow: 0 0 3px 1px #111611;
+}
+
+.store-location:hover {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+.store-location:active {
+  box-shadow: none;
+  border: 0.5px solid grey;
+  cursor: pointer;
+}
+
+/*STORES PAGE*/
+
+.stores {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 1px solid red;
+  display: none;
+}
+
+.intro table {
   border: 1px dashed blue;
+  width: 100%;
+}
+
+.intro th {
+  border: 1px dotted green;
+  font-size: 1.2rem;
+}
+
+/*CREATE STORE PAGE*/
+.create-store {
+  display: none;
   text-align: left;
   width: 94%;
   height: auto;
