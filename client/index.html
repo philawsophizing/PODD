@@ -17,70 +17,102 @@
   <div class="shell-border">
     <div class="shell">
 
-<div class="header">
-  <div class="customer-type human">
-    human
-  </div>
-  <div class="customer-type merchant">
-    merchant
-  </div>
-</div>
-
 <!-- CUSTOMER HOME -->
 <div class="customer-home">
+  <!-- CUSTOMER HEADER -->
+  <div class="customer-header">
+    <div class="customer-human-button">
+      human
+    </div>
+    <div class="customer-merchant-button">
+      merchant
+    </div>
+  </div>
   <!-- INTRO -->
   <div class="intro">
     <h1>podd</h1>
     <div class="line-break"></div>
     <!-- WELCOME -->
     <h3 class='intro-text'>A free digital wallet that doesn't suck. Never wait in line again with self checkout baked in. Sign up in 15 seconds with any bank or credit card account.</h3>
-    <h3 class="read-more"> Read more...</h3>
-    <h3 class="home-more">Podd brings online shopping to bricks and mortar. Find items immediately, no more paper reciepts and never stand in line again with self checkout baked in.</h3>
   </div>
 
   <!-- AUTHORIZTION -->
-  <div class="location">
+  <div class="customer-location">
     <h4>Self checkout and store detection are location based. We never save your location or track in the background.</h4>
 
-    <div class="authorize">authorize</div>
+    <div class="customer-authorize">authorize</div>
   </div>
 
-
-  <!-- CURRENT -->
-  <div class="current">
-    <div class="store"></div>
-    <div class="shop-button">
-      Go Shopping.
-    </div>
-  </div>
-  <!-- CLOSEST STORES -->
-  <div class="nearby">
-    <div class="nearby-store">
-      <div class="name"></div>
-      <div class="address"></div>
-      <div class="distance"></div>
-    </div>
-  </div>
 
 </div>
 
 <!-- MERCHANT HOME -->
 <div class="merchant-home">
-
+  <!-- CUSTOMER HEADER -->
+  <div class="merchant-header">
+    <div class="merchant-human-button">
+      human
+    </div>
+    <div class="merchant-merchant-button">
+      merchant
+    </div>
+  </div>
   <!-- INTRO -->
   <div class="intro">
     <h1>podd</h1>
     <div class="line-break">
     </div>
-    <h3 class="intro-text">Offer self checkout and a better shopping experience to your customers. Reduce the number of staff processing transactioins and  utilize machine learning and superior record keeping to make better purchasing and business decisions.</h3>
-    <h3 class="read-more"> Read more...</h3>
+    <h3 class="intro-text">Offer self checkout and a better shopping experience to your customers. Reduce the number of staff processing transactioins, utilize machine learning and superior record keeping to make better purchasing and business decisions.</h3>
   </div>
+
+  <!-- SET UP A STORE -->
+  <div class="store">
+    <h4>Create a sample store using your current location.</h4>
+
+    <div class="store-location">authorize</div>
+  </div>
+
+</div>
+
+<!-- CLOSEST STORES -->
+<div class="stores">
+
+  <!-- INTRO -->
+  <div class="intro">
+    <h1>podd stores near you</h1>
+    <div class="line-break"></div>
+    <!-- TABLE -->
+    <table class='table'>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Distance</th>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+<!-- CREATE STORE-->
+<div class="create-store">
+
+  <!-- INTRO -->
+  <div class="intro">
+    <h1>set up a demo store</h1>
+    <div class="line-break">
+    </div>
+    <h3 class="intro-text">Use the fields below to create a store. Podd will create a geo-fence around your location to offer customers self checkout.</h3>
+  </div>
+
+  <!-- STORE FORM -->
+
+
 </div>
 
     </div>
   </div>
 
-<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript" src="index.js"></script>
 </body>
