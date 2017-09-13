@@ -5,3 +5,5 @@ database
 client
 bundle.js
 app.js
+package-lock.json
+package.json
