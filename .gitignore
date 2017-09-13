@@ -1,1 +1,7 @@
 node_modules
+src
+dev
+database
+client
+bundle.js
+app.js
