@@ -3,6 +3,7 @@ Digital Shopping in an Analog World.
 
 ## TL;DR.
 ### [Demo App](https://podd-demo.herokuapp.com/)
+https://podd-demo.com
 
 PODD is built to reduce transaction pain and cost. Waste less time and money while leveraging more data.
 
@@ -18,12 +19,12 @@ Podd brings the online shopping experience to bricks and mortar.
 - Shop without a wallet using credit or direct debit
 - View prices and pay in your prefered currency
 - No more hunting for items, search and locate
-- Personal ssistance is one click away
+- Personal assistance is one click away
 - One click SELF CHECKOUT aka no more lines
 
 **Merchants**
 - Automate inventory
-- Gain insight into customer trends.
+- Gain insight into customer trends
 - Data driven product recommendations
 - Offer self checkout without a large infrastructure investment
 - Allocate employees to customer assistance instead of operating registers
@@ -70,5 +71,6 @@ Merchants reduce payment infrastructure, lower staff time spent processing trans
 ## DEMO
 
 ### [Demo App](https://podd-demo.herokuapp.com/)
+https://podd-demo.com
 
 (Performs best installed to your home screen when prompted.)
