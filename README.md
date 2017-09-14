@@ -16,15 +16,16 @@ Podd brings the online shopping experience to bricks and mortar.
 - Compare prices at nearby stores
 - Check inventory before making the trip
 - Shop without a wallet using credit or direct debit
-- View prices and pay in your currency
-- No more hunting for an items, search and locate
-- Assistance one click away
+- View prices and pay in your prefered currency
+- No more hunting for items, search and locate
+- Personal ssistance is one click away
 - One click SELF CHECKOUT aka no more lines
 
 **Merchants**
 - Automate inventory
-- Gain insight into customer trends, and product recommendations
-- Offer self checkout without large infrastructure investment
+- Gain insight into customer trends.
+- Data driven product recommendations
+- Offer self checkout without a large infrastructure investment
 - Allocate employees to customer assistance instead of operating registers
 - Pay no more than you currently do to process transactions
 - PODD handles securing your transactions
@@ -41,6 +42,8 @@ PODD is built as a PWA (progressive web app). It caches static assets using serv
 
  Podd uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
 
+ Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed.
+
 **Front End**
 - Elm (superior rendering speed, and functional code base)
 - Service workers (cache assets, to allow offline use and app feel)
@@ -52,7 +55,7 @@ PODD is built as a PWA (progressive web app). It caches static assets using serv
 - Elixer (to manage concurrency, uptime using the Erlang VM)
 - Machine learning OCR models for barcode and qr scanning
 - Custom product insight and search algorithms
-- Inventory controll and messaging system
+- Inventory control and messaging system
 
 ## BUSINESS
 
@@ -67,3 +70,5 @@ Merchants reduce payment infrastructure, lower staff time spent processing trans
 ## DEMO
 
 ### [Demo App](https://podd-demo.herokuapp.com/)
+
+(Performs best installed to your home screen when prompted.)
