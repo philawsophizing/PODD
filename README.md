@@ -1,2 +1,32 @@
-# podd
-Platform agnostic digital wallet that doesn't suck.
+# PODD
+Digital Shopping in an Analog World.
+
+## TL;DR.
+[Demo App](https://podd-demo.herokuapp.com/)
+
+## INTRO
+
+Podd brings the online shopping experience to bricks and mortar.
+
+**Customers**
+- Compare prices at nearby stores
+- Check inventory before making the trip
+- Shop without a wallet using credit or direct debit
+- View prices and pay in your currency
+- No more hunting for an items, search and locate
+- Assistance one click away
+- One click SELF CHECKOUT aka no more lines
+
+**Merchants**
+- Automate inventory
+- Gain insight into customer trends, and product recommendations
+- Offer self checkout without large infrastructure investment
+- Allocate employees to customer assistance instead of operating registers
+- Pay no more than you currently do to process transactions
+- PODD handles securing your transactions
+- Recieve payments in your prefered currency.
+
+## CUSTOMER VIEWS
+![](https://github.com/philawsophizing)
+
+## MERCHANT VIEWS
