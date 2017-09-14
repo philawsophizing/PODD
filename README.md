@@ -2,9 +2,9 @@
 Digital Shopping in an Analog World.
 
 ## TL;DR.
-[Demo App](https://podd-demo.herokuapp.com/)
+### [Demo App](https://podd-demo.herokuapp.com/)
 
-PODD is built to reduce transaction pain and cost. Waste less time and money with more data.
+PODD is built to reduce transaction pain and cost. Waste less time and money while leveraging more data.
 
 PODD's demo is built as a PWA (progressive web app), to be viewed from your mobile phone. It performs best installed to your home screen when prompted.
 
@@ -37,7 +37,9 @@ Podd brings the online shopping experience to bricks and mortar.
 ![](https://github.com/philawsophizing/PODD/raw/master/readme_assets/merchant_screens.jpg)
 
 ## TECH
-PODD is built as a PWA (progressive web app). It caches static assets using service workers, allows one system and code base across platforms and uses new web api's including geolocation and push notifications.
+PODD is built as a PWA (progressive web app). It caches static assets using service workers while allowing one system and code base across platforms.
+
+ Podd uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
 
 **Front End**
 - Elm (superior rendering speed, and functional code base)
@@ -49,6 +51,8 @@ PODD is built as a PWA (progressive web app). It caches static assets using serv
 **Server Side**
 - Elixer (to manage concurrency, uptime using the Erlang VM)
 - Machine learning OCR models for barcode and qr scanning
+- Custom product insight and search algorithms
+- Inventory controll and messaging system
 
 ## BUSINESS
 
@@ -56,9 +60,9 @@ My vision behind PODD is to reduce transaction pain and cost, increase efficienc
 
 PODD would be free for customers and raise money through merchant fees on transactions.
 
-Customers can manage their payment methods with a digital/device agnostic wallet that doesn't suck.
+Customers can manage their payment methods with a digital and device agnostic wallet that doesn't suck.
 
-Merchants reduce payment infrastructure, lower staff costs on transactions, improve customer experience, and can leverage better data.
+Merchants reduce payment infrastructure, lower staff time spent processing transactions, improve customer's experience, and leverage better data.
 
 ## DEMO
 
