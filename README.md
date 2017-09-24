@@ -38,11 +38,11 @@ Podd brings the online shopping experience to bricks and mortar.
 ![](https://github.com/philawsophizing/PODD/raw/master/readme_assets/merchant_screens.jpg)
 
 ## TECH
-PODD is built as a PWA (progressive web app). It caches static assets using service workers while allowing one system and code base across platforms.
+PODD will initially be built as a PWA (progressive web app) and then as a native iOs and Android app. A PWA caches static assets using service workers while allowing one system and code base across platforms.
 
  Podd uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
 
- Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed.
+ Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed. 
 
 **Front End**
 - Elm (superior rendering speed, and functional code base)
