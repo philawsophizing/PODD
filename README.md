@@ -23,6 +23,7 @@ Podd brings the online shopping experience to bricks and mortar.
 
 **Merchants**
 - Automate inventory
+- Nearly eliminate shrinkage.
 - Gain insight into customer trends.
 - Data driven product recommendations
 - Offer self checkout without a large infrastructure investment
@@ -38,11 +39,23 @@ Podd brings the online shopping experience to bricks and mortar.
 ![](https://github.com/philawsophizing/PODD/raw/master/readme_assets/merchant_screens.jpg)
 
 ## TECH
+
+**Application**
+
 PODD will initially be built as a PWA (progressive web app) and then as a native iOs and Android app. A PWA caches static assets using service workers while allowing one system and code base across platforms.
 
  Podd uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
 
- Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed. 
+ Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed.
+ 
+ **Hardware**
+
+External to stores PODD will track customers location using the GPS chip on their phone. Once customers enter a PODD enabled store their precise location will be tracked using wifi triangulation. When items are scanned into inventory a RFID tag can be printed that can be checked against the customers cart when they're leaving to drastically reduce shrinkage and improve inventory management.
+ 
+ - Merchants preferred devices
+ - RFID printer linked to merchant app (scan item into inventory, attach RFID sticker.
+ - Wifi relays to track customers internally.
+ - RFID detector to compare cart to items read.
 
 **Front End**
 - Elm (superior rendering speed, and functional code base)
