@@ -55,7 +55,7 @@ External to stores PODD will track customers location using the GPS chip on thei
  - Merchants preferred devices
  - RFID printer linked to merchant app (scan item into inventory, attach RFID sticker.
  - Wifi relays to track customers internally.
- - RFID detector to compare cart to items read.
+ - RFID detector to compare items leaving the store to customers cart.
 
 **Front End**
 - Elm (superior rendering speed, and functional code base)
