@@ -4,33 +4,30 @@ Digital Shopping in an Analog World.
 ## TL;DR.
 ### [Demo App](https://podd-demo.herokuapp.com/)
 
-PODD is built to reduce transaction pain and cost. Waste less time and money while leveraging more data.
+PODD reduces transaction pain and cost. Save time and money while leveraging data.
 
-PODD's demo is built as a PWA (progressive web app), to be viewed from your mobile phone. It performs best installed to your home screen when prompted.
+The PODD demo is a progressive web app (PWA), to be viewed from your mobile phone. It performs best installed to your home screen when prompted.
 
 ## INTRO
 
-Podd brings the online shopping experience to bricks and mortar.
+PODD brings the online shopping experience to bricks and mortar.
 
 **Customers**
-- Compare prices at nearby stores
-- Check inventory before making the trip
-- Shop without a wallet using credit or direct debit
-- View prices and pay in your prefered currency
-- No more hunting for items, search and locate
-- Personal ssistance is one click away
-- One click SELF CHECKOUT aka no more lines
+- One click self-checkout; no more lines.
+- Compare prices at nearby stores, check inventory before making the trip.
+- Shop with a virtual wallet using credit or direct debit.
+- View prices and pay in your preferred currency when travelling.
+- Request personal assistance with one click.
 
 **Merchants**
-- Automate inventory
-- Nearly eliminate shrinkage.
-- Gain insight into customer trends.
-- Data driven product recommendations
-- Offer self checkout without a large infrastructure investment
-- Allocate employees to customer assistance instead of operating registers
-- Pay no more than you currently do to process transactions
-- PODD handles securing your transactions
-- Recieve payments in your prefered currency.
+- Offer self-checkout without investing in bespoke hardware or software.
+- Eliminate shrinkage.
+- Automate inventory management.
+- Create insight into customer trends.
+- Allocate employees to customer assistance instead of operating registers.
+- PODD secures your transactions.
+- Recieve payments in your preferred currency.
+- Industry standard transaction fees.
 
 ## CUSTOMER VIEWS
 ![](https://github.com/philawsophizing/PODD/raw/master/readme_assets/customer_screens.jpg)
@@ -42,9 +39,9 @@ Podd brings the online shopping experience to bricks and mortar.
 
 **Application**
 
-PODD will initially be built as a PWA (progressive web app) and then as a native iOs and Android app. A PWA caches static assets using service workers while allowing one system and code base across platforms.
+PODD will initially be built as a PWA and then as a native iOs and Android app. A PWA caches static assets using service workers while allowing one system and code base across platforms.
 
- Podd uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
+ PODD uses new web api's including geolocation and push notifications, meaning little difference to a native app. Updating the app happens automatically without relying on customers downloading an update.
 
  Building a PWA also allows customers to test drive the app without commitment. Later choosing to install it to their home screen, or just visit it when needed.
  
